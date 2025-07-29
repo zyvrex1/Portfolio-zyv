@@ -1,0 +1,259 @@
+.projects-hero {
+    position: relative;
+    height: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 32px 64px;
+    background-color: #000;
+    overflow: hidden;
+
+    .projects-background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        top: 0;
+        left: 350px;
+        z-index: 1;
+    }
+
+    .projects-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 2;
+    }
+
+    .projects-content {
+        position: relative;
+        z-index: 3;
+        color: #fff;
+        padding: 0 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        max-width: 50%;
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            line-height: 1.6;
+        }
+    }
+}
+
+.poster-scroll-section {
+    margin: 32px 64px;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: #6b7280;
+        margin-bottom: 2rem;
+    }
+
+    .carousel-wrapper {
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+
+        .carousel-track-wrapper {
+            overflow: hidden;
+            width: 100%;
+
+            .carousel-track {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+                width: max-content;
+
+                .carousel-card {
+                    margin: 0 15px;
+                    flex: 0 0 20%;
+                    max-width: 330px;
+                    box-sizing: border-box;
+                    padding: 20px 20px 0 20px;
+                    background-color: #f2f2f2;
+                    border-radius: 10px;
+                    text-align: left;
+
+                    img {
+                        width: 100%;
+                        height: 350px;
+                        object-fit: cover;
+                        transition: transform 0.3s ease;
+                        border-radius: 8px;
+                        top: 0;
+
+                        &:hover {
+                            transform: scale(1.05);
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+    .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        font-size: 1.5rem;
+        z-index: 10;
+        border-radius: 50%;
+        transition: background 0.3s ease;
+    }
+
+    .carousel-btn.left {
+        left: 10px;
+    }
+
+    .carousel-btn.right {
+        right: 10px;
+    }
+
+    .carousel-btn:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+    }
+
+}
+
+.video-section-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    .video-card {
+        width: 947px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+
+        video {
+            width: 100%;
+            border-radius: 8px;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+}
+
+.more-designs-section {
+    margin: 64px;
+    border-top: 3px solid #000;
+    text-align: center;
+
+    p {
+        color: #333;
+    }
+
+    .behance-link {
+        display: inline-block;
+        font-size: 64px;
+        color: #000;
+        /* Behance blue */
+        transition: transform 0.3s ease, color 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+            color: #1F2937;
+        }
+    }
+
+}
+
+.more-videos-section {
+    text-align: center;
+    margin: 40px 0;
+
+
+    p {
+        color: #333;
+    }
+
+    .drive-link {
+        display: inline-block;
+        font-size: 64px;
+        color: #000;
+        /* Google Drive green */
+        transition: transform 0.3s ease, color 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+            color: #1F2937;
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-hero {
+        margin: 0 20px;
+
+        height: auto;
+
+        .projects-content {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+
+        .projects-background {
+            left: 0;
+        }
+    }
+
+    .poster-scroll-section {
+        margin: 0 20px;
+
+
+        .carousel-track .carousel-card {
+            flex: 0 0 100% !important;
+            margin: 0 auto !important;
+        }
+
+    }
+
+    .video-section-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 0 20px;
+
+        .video-card {
+            width: 100%;
+            max-width: 100%;
+            padding: 16px;
+
+            video {
+                height: auto;
+            }
+        }
+    }
+
+    .more-designs-section,
+    .more-videos-section {
+        margin: 32px 16px;
+
+        .behance-link,
+        .drive-link {
+            font-size: 48px;
+        }
+    }
+}

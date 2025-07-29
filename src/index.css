@@ -1,0 +1,178 @@
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #1F2937;
+}
+
+
+h1 {
+  font-family: var(--font-outfit);
+  font-size: 72px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16;
+  padding: 12px 32px;
+  border-radius: 8px;
+}
+
+
+.regular-body-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.large-body-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.small-body-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
+ul,
+li {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px !important;
+}
+
+
+@media (max-width: 768px) {
+
+  .logo {
+
+    font-size: 20px;
+  }
+
+  a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  a:hover {
+    color: #1F2937;
+  }
+
+
+  h1 {
+    font-family: var(--font-outfit);
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    padding: 8px 26px;
+    border-radius: 6px;
+  }
+
+
+  .regular-body-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .large-body-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .small-body-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 10px !;
+  }
+
+
+  ul,
+  li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+
+}
+
