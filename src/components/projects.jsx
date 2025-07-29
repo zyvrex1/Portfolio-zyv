@@ -17,7 +17,7 @@ const posters = [
 
 
 const logoDesigns = [
-    { title: 'Le Astrid', image: 'logo/jana.png' },
+    { title: 'Le Astrid', image: 'logo/jana.PNG' },
     { title: 'GrooveTech Logo', image: 'logo/GROOVETECH.jpg' },
     { title: 'BRGY. Sta. Rita Fiesta 2025', image: 'logo/fiestalogo.png' },
     { title: 'Optitock Logo(Capstone)', image: 'logo/capstonelogo.png' },
@@ -44,12 +44,12 @@ const uiuxDesigns = [
 ];
 
 const vectorDesigns = [
-    { title: 'Zyv', image: 'vector/vector (1).png' },
-    { title: 'Ace', image: 'vector/vector (1).jpg' },
-    { title: 'Arjohn', image: 'vector/vector (2).jpg' },
-    { title: 'Gelido', image: 'vector/vector (2).png' },
-    { title: 'Earl', image: 'vector/vector (3).jpg' },
-    { title: 'Nilo', image: 'vector/vector (4).jpg' },
+    { title: 'Zyv', image: 'vector/vector1.PNG' },
+    { title: 'Ace', image: 'vector/ace.JPG' },
+    { title: 'Arjohn', image: 'vector/vector2.JPG' },
+    { title: 'Gelido', image: 'vector/vector3.PNG' },
+    { title: 'Earl', image: 'vector/vector4.JPG' },
+    { title: 'Nilo', image: 'vector/vector5.JPG' },
 ];
 
 const videoEdits = [
