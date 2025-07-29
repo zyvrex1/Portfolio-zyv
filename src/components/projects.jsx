@@ -3,58 +3,58 @@ import heroBG from '../assets/ZYV-LOGO.png';
 import { useState } from 'react';
 
 const posters = [
-    { title: 'Haring Manggi', image: '/src/assets/poster/POSTER1.png' },
-    { title: 'Hellmerry', image: '/src/assets/poster/HELLMERRY.png' },
-    { title: 'Ako Si Mon', image: '/src/assets/poster/AKOSIMON.png' },
-    { title: 'Arnel Bico Sports Poster', image: '/src/assets/poster/arnelbico.png' },
-    { title: 'Sta.Rita SK', image: '/src/assets/poster/STARITASK.png' },
-    { title: 'Club22', image: '/src/assets/poster/CLUB22.png' },
-    { title: '2200 Superclub', image: '/src/assets/poster/2200.png' },
-    { title: 'Empire x 2200 As One', image: '/src/assets/poster/EMPIRE.png' },
-    { title: 'Arirang Wave', image: '/src/assets/poster/ARIRANGWAVE.png' },
-    { title: 'Barcelona Sports & Bar', image: '/src/assets/poster/BARCELONA.png' },
+    { title: 'Haring Manggi', image: 'poster/POSTER1.png' },
+    { title: 'Hellmerry', image: 'poster/HELLMERRY.png' },
+    { title: 'Ako Si Mon', image: 'poster/AKOSIMON.png' },
+    { title: 'Arnel Bico Sports Poster', image: '/poster/arnelbico.png' },
+    { title: 'Sta.Rita SK', image: 'poster/STARITASK.png' },
+    { title: 'Club22', image: 'poster/CLUB22.png' },
+    { title: '2200 Superclub', image: '/poster/2200.png' },
+    { title: 'Empire x 2200 As One', image: 'poster/EMPIRE.png' },
+    { title: 'Arirang Wave', image: 'poster/ARIRANGWAVE.png' },
+    { title: 'Barcelona Sports & Bar', image: 'poster/BARCELONA.png' },
 ];
 
 
 const logoDesigns = [
-    { title: 'Le Astrid', image: '/src/assets/logo/jana.png' },
-    { title: 'GrooveTech Logo', image: '/src/assets/logo/GROOVETECH.jpg' },
-    { title: 'BRGY. Sta. Rita Fiesta 2025', image: '/src/assets/logo/fiestalogo.png' },
-    { title: 'Optitock Logo(Capstone)', image: '/src/assets/logo/capstonelogo.png' },
-    { title: 'Arirang Wave Logo', image: '/src/assets/logo/SIGNAGE1.png' },
-    { title: 'Club22 Logo', image: '/src/assets/logo/CLUB22LOGO.png' },
+    { title: 'Le Astrid', image: 'logo/jana.png' },
+    { title: 'GrooveTech Logo', image: 'logo/GROOVETECH.jpg' },
+    { title: 'BRGY. Sta. Rita Fiesta 2025', image: 'logo/fiestalogo.png' },
+    { title: 'Optitock Logo(Capstone)', image: 'logo/capstonelogo.png' },
+    { title: 'Arirang Wave Logo', image: 'logo/SIGNAGE1.png' },
+    { title: 'Club22 Logo', image: '/logo/CLUB22LOGO.png' },
 ];
 
 const typoDesigns = [
-    { title: 'A Snitch', image: '/src/assets/typo/snitch.png' },
-    { title: '2200', image: '/src/assets/typo/2200-typo.png' },
-    { title: 'Olongapo Artist Showdown', image: '/src/assets/typo/club22-typo.png' },
-    { title: 'Food Menu', image: '/src/assets/typo/FOOD-MENU.png' },
-    { title: 'Maintenance Manual Cover', image: '/src/assets/typo/MAINTENANCE.png' },
-    { title: 'Acadmark Manual Cover', image: '/src/assets/typo/ACADMARK.png' },
+    { title: 'A Snitch', image: '/typo/snitch.png' },
+    { title: '2200', image: 'typo/2200-typo.png' },
+    { title: 'Olongapo Artist Showdown', image: 'typo/club22-typo.png' },
+    { title: 'Food Menu', image: 'typo/FOOD-MENU.png' },
+    { title: 'Maintenance Manual Cover', image: 'typo/MAINTENANCE.png' },
+    { title: 'Acadmark Manual Cover', image: 'typo/ACADMARK.png' },
 ];
 
 const uiuxDesigns = [
-    { title: 'Streetwear Shop Landing Page', image: '/src/assets/uiux/Frame 2.png' },
-    { title: 'Streetwear Shop Landing Page Ver2', image: '/src/assets/uiux/landingpage.png' },
-    { title: 'Acadmark Login Page', image: '/src/assets/uiux/Loginpage.png' },
-    { title: 'Acadnark Dashboard', image: '/src/assets/uiux/Dashboard.png' },
-    { title: 'Maintenance Login Page', image: '/src/assets/uiux/maintelogin.png' },
-    { title: 'Maintenance Dashbboard', image: '/src/assets/uiux/mainte-dashboard.png' },
+    { title: 'Streetwear Shop Landing Page', image: 'uiux/Frame 2.png' },
+    { title: 'Streetwear Shop Landing Page Ver2', image: 'uiux/landingpage.png' },
+    { title: 'Acadmark Login Page', image: 'uiux/Loginpage.png' },
+    { title: 'Acadnark Dashboard', image: 'uiux/Dashboard.png' },
+    { title: 'Maintenance Login Page', image: 'uiux/maintelogin.png' },
+    { title: 'Maintenance Dashbboard', image: 'uiux/mainte-dashboard.png' },
 ];
 
 const vectorDesigns = [
-    { title: 'Zyv', image: '/src/assets/vector/vector (1).png' },
-    { title: 'Ace', image: '/src/assets/vector/vector (1).jpg' },
-    { title: 'Arjohn', image: '/src/assets/vector/vector (2).jpg' },
-    { title: 'Gelido', image: '/src/assets/vector/vector (2).png' },
-    { title: 'Earl', image: '/src/assets/vector/vector (3).jpg' },
-    { title: 'Nilo', image: '/src/assets/vector/vector (4).jpg' },
+    { title: 'Zyv', image: 'vector/vector (1).png' },
+    { title: 'Ace', image: 'vector/vector (1).jpg' },
+    { title: 'Arjohn', image: 'vector/vector (2).jpg' },
+    { title: 'Gelido', image: 'vector/vector (2).png' },
+    { title: 'Earl', image: 'vector/vector (3).jpg' },
+    { title: 'Nilo', image: 'vector/vector (4).jpg' },
 ];
 
 const videoEdits = [
-    { title: 'Gordon College Activity Promotion', video: '/src/assets/video/POG.mp4' },
-    { title: 'Ultima Versa Teaser', video: '/src/assets/video/twoway-teaser.mp4' },
+    { title: 'Gordon College Activity Promotion', video: 'video/POG.mp4' },
+    { title: 'Ultima Versa Teaser', video: '/video/twoway-teaser.mp4' },
 ];
 
 const isMobile = window.innerWidth <= 768;
