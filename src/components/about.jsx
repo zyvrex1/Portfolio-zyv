@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./About.css";
 
 const About = () => {
   return (
@@ -8,11 +8,11 @@ const About = () => {
         {/* Profile Card */}
         <div className="profile-card">
           <div className="intro">
-            <img src="sablaypic.jpg" alt="Profile" className="profile-image" />
+            <img src="/src/assets/sablaypic.jpg" alt="Profile" className="profile-image" />
             <h2>Zyvrex John R Perez</h2>
             <p className="large-body-text">Graphic Designer</p>
 
-             <a href="RESUME_PEREZ.pdf" download className="download-btn">
+             <a href="/src/assets/RESUME_PEREZ.pdf" download className="download-btn">
         <i className="fas fa-download"></i> Download Resume
       </a>
           </div>

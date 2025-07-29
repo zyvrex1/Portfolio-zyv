@@ -3,16 +3,16 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import "./home.css";
 
 const projects = [
-    { title: "Club22 Logo", label: "Logo", img: "logo/CLUB22LOGO.png", },
-    { title: "Ace", label: "Vector Art", img: "vector/vector (1).jpg", },
-    { title: "Hellmerry", label: "Poster", img: "poster/HELLMERRY.png", },
-    { title: "Ako Si Mon", label: "Poster", img: "poster/AKOSIMON.png", },
-    { title: "2200 Soiree Sabadope", label: "Poster", img: "poster/2200.png", },
-    { title: "Arnel Bico Sports Poster", label: "Poster", img: "/poster/arnelbico.png", },
-    { title: "StreetWear Landing Page", label: "UI/UX", img: "uiux/landingpage.png", },
-    { title: "Acadmark Login Page", label: "UI/UX", img: "uiux/loginpage.png", },
-    { title: "Maintenance Manual Cover", label: "Typography", img: "typo/MAINTENANCE.png", },
-    { title: "Club22 Promo Tarpaulin", label: "Typography", img: "typo/club22-typo.png", },
+    { title: "Club22 Logo", label: "Logo", img: "CLUB22LOGO.png", },
+    { title: "Ace", label: "Vector Art", img: "/src/assets/vector/vector (1).jpg", },
+    { title: "Hellmerry", label: "Poster", img: "/src/assets/poster/HELLMERRY.png", },
+    { title: "Ako Si Mon", label: "Poster", img: "/src/assets/poster/AKOSIMON.png", },
+    { title: "2200 Soiree Sabadope", label: "Poster", img: "/src/assets/poster/2200.png", },
+    { title: "Arnel Bico Sports Poster", label: "Poster", img: "/src/assets/poster/arnelbico.png", },
+    { title: "StreetWear Landing Page", label: "UI/UX", img: "/src/assets/uiux/landingpage.png", },
+    { title: "Acadmark Login Page", label: "UI/UX", img: "/src/assets/uiux/loginpage.png", },
+    { title: "Maintenance Manual Cover", label: "Typography", img: "/src/assets/typo/MAINTENANCE.png", },
+    { title: "Club22 Promo Tarpaulin", label: "Typography", img: "/src/assets/typo/club22-typo.png", },
 
 ];
 
@@ -52,7 +52,7 @@ function Hero() {
                     </div>
 
                     <div className="hero-image">
-                        <img src="ZYV.png" alt="Designer Illustration" />
+                        <img src="/src/assets/ZYV.png" alt="Designer Illustration" />
                     </div>
                 </div>
             </section>
@@ -86,7 +86,7 @@ function Hero() {
                 <div className="about-container">
 
                     <div className="about-image">
-                        <img src="sablaypic.jpg" alt="Designer Illustration" />
+                        <img src="/src/assets/sablaypic.jpg" alt="Designer Illustration" />
                     </div>
                     <div className="about-content">
                         <div className="about-header">
