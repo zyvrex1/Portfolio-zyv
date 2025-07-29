@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import "./home.css";
 
 const projects = [
-    { title: "Club22 Logo", label: "Logo", img: "src/assets/logo/CLUB22LOGO.png", },
+    { title: "Club22 Logo", label: "Logo", img: "logo/CLUB22LOGO.png", },
     { title: "Ace", label: "Vector Art", img: "/src/assets/vector/vector (1).jpg", },
     { title: "Hellmerry", label: "Poster", img: "/src/assets/poster/HELLMERRY.png", },
     { title: "Ako Si Mon", label: "Poster", img: "/src/assets/poster/AKOSIMON.png", },
