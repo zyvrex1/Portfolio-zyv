@@ -10,7 +10,7 @@ const projects = [
     { title: "2200 Soiree Sabadope", label: "Poster", img: "poster/2200.png", },
     { title: "Arnel Bico Sports Poster", label: "Poster", img: "poster/arnelbico.png", },
     { title: "StreetWear Landing Page", label: "UI/UX", img: "uiux/landingpage.png", },
-    { title: "Acadmark Login Page", label: "UI/UX", img: "uiux/loginpage.png", },
+    { title: "Acadmark Login Page", label: "UI/UX", img: "uiux/Loginpage.png", },
     { title: "Maintenance Manual Cover", label: "Typography", img: "typo/MAINTENANCE.png", },
     { title: "Club22 Promo Tarpaulin", label: "Typography", img: "typo/club22-typo.png", },
 
