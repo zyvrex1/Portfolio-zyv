@@ -8,7 +8,7 @@ const About = () => {
         {/* Profile Card */}
         <div className="profile-card">
           <div className="intro">
-            <img src="/src/assets/sablaypic.jpg" alt="Profile" className="profile-image" />
+            <img src="sablaypic.jpg" alt="Profile" className="profile-image" />
             <h2>Zyvrex John R Perez</h2>
             <p className="large-body-text">Graphic Designer</p>
 

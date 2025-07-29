@@ -78,8 +78,6 @@ function Projects() {
     const [vectorIndex, setvectorIndex] = useState(0);
     const vectorMaxIndex = Math.max(0, vectorDesigns.length - itemsPerPage);
 
-
-
     return (
         <>
             {/* Hero Section */}
