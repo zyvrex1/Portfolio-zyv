@@ -4,7 +4,7 @@ import "./home.css";
 
 const projects = [
     { title: "Club22 Logo", label: "Logo", img: "logo/CLUB22LOGO.png", },
-    { title: "Ace", label: "Vector Art", img: "vector/vector (1).jpg", },
+    { title: "Ace", label: "Vector Art", img: "vector/ace.jpg", },
     { title: "Hellmerry", label: "Poster", img: "poster/HELLMERRY.png", },
     { title: "Ako Si Mon", label: "Poster", img: "poster/AKOSIMON.png", },
     { title: "2200 Soiree Sabadope", label: "Poster", img: "poster/2200.png", },
