@@ -94,7 +94,7 @@ function Hero() {
                         </div>
                         <div className="about-subtitle">
                             <p className="regular-body-text">
-                                I’m Zyvrex John Perez — a graphic designer with 2 years of experience turning
+                                I’m Zyvrex John Perez — a graphic designer with 1 year of experience turning
                                 ideas into visuals that actually hit, helping brands and businesses stand out across
                                 different industries.
                             </p>

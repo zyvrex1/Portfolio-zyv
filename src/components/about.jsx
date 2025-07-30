@@ -141,7 +141,7 @@ const About = () => {
           <ul className="cert-list">
             <li><span className="dot green"></span> <strong>BSIT Best Digital Artist of the Year</strong><br />Gordon College • 2025</li>
             <li><span className="dot green"></span> <strong>Cum Laude</strong><br />Gordon College • 2025</li>
-            <li><span className="dot green"></span> <strong>CCS Week 2025 Shortfilm Overall Champion (Director)</strong><br />Gordon Collegenstitute • 2025</li>
+            <li><span className="dot green"></span> <strong>CCS Week 2025 Shortfilm Overall Champion (Director)</strong><br />Gordon College • 2025</li>
           </ul>
         </div>
       </div>
