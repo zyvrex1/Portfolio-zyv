@@ -12,7 +12,7 @@ const About = () => {
             <h2>Zyvrex John R Perez</h2>
             <p className="large-body-text">Graphic Designer</p>
 
-             <a href="/src/assets/Perez-CV.pdf" download className="download-btn">
+             <a href="Perez-CV.pdf" download className="download-btn">
         <i className="fas fa-download"></i> Download Resume
       </a>
           </div>
