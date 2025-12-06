@@ -1,13 +1,20 @@
+// src/components/Header.jsx
 import "./header.css";
-import { NavLink } from 'react-router-dom';
 import { useState } from "react";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false); // close mobile menu after click
+    }
+  };
+
   return (
     <header className="header">
-      <div className="logo">ZYV</div>
 
       {/* Burger Icon */}
       <div className="burger" onClick={() => setIsOpen(!isOpen)}>
@@ -17,27 +24,21 @@ function Header() {
       </div>
 
       <nav className={`nav ${isOpen ? "show" : ""}`}>
-        <NavLink
-          to="/"
-          className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
-          onClick={() => setIsOpen(false)}
-        >
+        <button className="nav-link" onClick={() => scrollToSection("home")}>
           Home
-        </NavLink>
-        <NavLink
-          to="/projects"
-          className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
-          onClick={() => setIsOpen(false)}
-        >
-          Projects
-        </NavLink>
-        <NavLink
-          to="/about"
-          className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
-          onClick={() => setIsOpen(false)}
-        >
+        </button>
+        <button className="nav-link" onClick={() => scrollToSection("about")}>
           About
-        </NavLink>
+        </button>
+        <button className="nav-link" onClick={() => scrollToSection("service")}>
+          Services
+        </button>
+        <button className="nav-link" onClick={() => scrollToSection("projects")}>
+          Projects
+        </button>
+        <button className="nav-link" onClick={() => scrollToSection("contact")}>
+          Contact
+        </button>
       </nav>
     </header>
   );

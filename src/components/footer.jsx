@@ -14,21 +14,23 @@ function Footer() {
         </div>
 
         <div className="footer-links">
-          <div className="footer-column">
+          {/* <div className="footer-column">
             <h3>Navigation</h3>
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/projects">Projects</a></li>
               <li><a href="/about">About</a></li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="footer-column">
             <h3>Services</h3>
             <ul>
-              <li>Brand Identity</li>
-              <li>Visual Design (Print & Digital)</li>
+              <li>Poster Design</li>
+              <li>Logo and Brand Identity</li>
               <li>UI/UX Design</li>
+              <li>Social Media and Digital Content</li>
+              <li>Print and Merchandise Design</li>
               <li>Video Editing</li>
             </ul>
           </div>
