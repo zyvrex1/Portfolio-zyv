@@ -104,7 +104,7 @@ function Hero() {
                     </div>
 
                     <div className="about-resume-btn">
-                        <a href="Perez-CV.pdf" download className="download-btn">
+                        <a href="Perez-Resume.pdf" download className="download-btn">
                             <i className="fas fa-download"></i> Download Resume
                         </a>
                     </div>
